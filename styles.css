@@ -279,6 +279,26 @@ img {
   transition: color 0.3s;
 }
 
+.nav__link::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: var(--white-color);
+  position: absolute;
+  left: 0;
+  bottom: -.5rem;
+  transition: width .3s;
+}
+
+.nav__link:hover{
+  color: var(--white-color);
+}
+
+.nav__link:hover::after{
+  width: 100%;
+}
+
+
 /* Show menu */
 
 
