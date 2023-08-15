@@ -189,7 +189,7 @@ img {
 
 .nav__logo{
     display: flex;
-    column-gap: center;
+    column-gap: .5rem;
     align-items: center;
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
