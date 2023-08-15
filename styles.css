@@ -265,6 +265,20 @@ img {
   right: -4rem;
 }
 
+.nav__list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+.nav__link{
+  position: relative;
+  color: var(--text-color-light);
+  font-size: var(--h3-font-size);
+  font-weight:var(--font-semi-bold);
+  transition: color 0.3s;
+}
+
 /* Show menu */
 
 
