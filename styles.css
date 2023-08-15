@@ -319,8 +319,45 @@ img {
 
 
 /*=============== HOME ===============*/
+.home__container{
+  padding-top: 2rem;
+}
 
+.home__name{
+  font-size: var(--biggest-font-size);
+  text-align: center;
+}
 
+.home__prefil{
+  position: relative;
+  justify-self: center;
+}
+
+.home__image{
+  width: 220px;
+}
+
+.home__img{
+  position: relative;
+  z-index: 10;
+}
+
+.home__shadow{
+  width: 100%;
+  height: 100%;
+  background-color: var(--container-color);
+  position: absolute;
+  bottom: -.75rem;
+  right: -.75rem;
+  border: 4px solid var(--black-color);
+  z-index: 5;
+  transition: background-color 0.4s;
+}
+
+.home__social{
+  height: max-content;
+  position: absolute;
+}
 /* Animate scroll icon */
 
 
