@@ -26,12 +26,12 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== SHADOW HEADER ===============*/
 
-const scrollHeader = () => {
+const shadowHeader = () => {
     const header = document.getElementById('header')
-    this.scrollY >= 50 ? header.classList.add('scroll-header')
-    : header.classList.remove('scroll-header')
+    this.scrollY >= 50 ? header.classList.add('shadow-header')
+    : header.classList.remove('shadow-header')
 }
-window.addEventListener('scroll', scrollHeader)
+window.addEventListener('scroll', shadowHeader)
 
 
 /*=============== EMAIL JS ===============*/
