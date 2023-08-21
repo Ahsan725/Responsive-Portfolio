@@ -572,7 +572,7 @@ img {
   padding: 6rem 1rem 3rem;
   z-index: 5;
   position: relative;
-  transition: background-color .4s, border 4s;
+  transition: background-color .4s, border .4s;
 }
 
 .services__border{
@@ -580,6 +580,9 @@ img {
   width: 100%;
   height: 100%;
   border: 4px solid var(--first-color);
+  top: 0;
+  left: 0;
+  transition: transform .4s;
 }
 
 /*=============== PROJECTS ===============*/
