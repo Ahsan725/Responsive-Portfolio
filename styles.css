@@ -593,6 +593,19 @@ img {
   display: inline-block;
 }
 
+.services__icon i{
+  font-size: 2rem;
+  color: var(--black-color);
+  position: relative;
+  z-index: 5;
+}
+.services__box{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: var(--first-color);
+}
+
 /*=============== PROJECTS ===============*/
 
 
