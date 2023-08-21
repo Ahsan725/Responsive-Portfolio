@@ -638,6 +638,16 @@ img {
   bottom: -1.5rem;
   padding: 1rem;
 }
+
+.projects__content{
+  margin-bottom: 1.25rem;
+}
+
+.projects__subtitle{
+  position: relative;
+  display: inline-block;
+  font-size: var(--small-font-size);
+}
 /*=============== CONTACT ===============*/
 
 
