@@ -585,6 +585,10 @@ img {
   transition: transform .4s;
 }
 
+.services__card:hover .services__border{
+  transform: translate(.75rem, .75rem);
+}
+
 /*=============== PROJECTS ===============*/
 
 
