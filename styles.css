@@ -618,7 +618,14 @@ img {
   background-color: var(--container-color);
   transition: background-color .4s;
 }
-
+.projects__container{
+  row-gap: 2rem;
+}
+.projects__card{
+  padding: 1rem 1rem 2rem;
+  transition: background-color .4s;
+  background-color: var(--white-color);
+}
 /*=============== CONTACT ===============*/
 
 
